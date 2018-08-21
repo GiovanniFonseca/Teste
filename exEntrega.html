@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ex Entrega</title>
+
+	<link rel="stylesheet" type="text/css" href="estilo.css"/>
+	
+</head>
+<body>
+
+	<div class="titulo">
+		
+		<h1>Cadastro de Candidatos</h1>
+
+	</div>
+
+		<br><br>
+
+		<form name="form_cadastro_candidato" action="http://andrebordignon.esy.es/php/incluicandidato.php">
+
+	<fieldset class="fieldset">
+
+		<legend>Dados Pessoais</legend>
+
+	<label>Nome</label>
+	<input type="text" name="nome" required>
+
+	<br><br>
+
+	<label>Sexo</label>
+	<input type="radio" name="sexo" value="masculino" required/>Masculino <br>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="sexo" value="feminino" required/>Feminino
+
+	<br><br>
+
+	<label>Data de Nascimento</label>
+
+	<input type="date" name="dataNasc" required/>
+
+	<br><br>
+
+	<label>CPF</label>
+	<input type="text" name="cpf" required>
+
+	<br><br>
+
+	<label>Nº Cadastro Justiça eleitoral</label>
+	<input type="text" name="cadjus" required>
+
+	<br><br>
+
+	<label>Email</label>
+	<input type="email" name="email" required>
+
+	<br><br>
+
+	<label>Senha</label>
+	<input type="password" name="senha" required>
+
+	<br><br>
+
+	<label>Descrição</label>
+
+	<textarea cols="50" rows="3"></textarea>
+
+	</fieldset>
+
+	<br><br>
+
+	<fieldset class="fieldset">
+
+		<legend>Endereço</legend>
+
+	<label>Rua</label>
+	<input type="text" name="rua" required/>
+
+	<br><br>
+
+	<label>Número</label>
+	<input type="text" name="numero" required/>
+
+	<br><br>
+
+	<label>Bairro</label>
+	<input type="text" name="bairro" required/>
+
+	<br><br>
+
+	<label>Cidade</label>
+
+	<input type="text" name="cidade" required/>
+
+	<br><br>
+
+	<label>Estado</label>
+	<select name="estado" required>
+
+		<option value=" ">Selecione</option>
+		<option value="AC">Acre</option>
+		<option value="AL">Alagoas</option>
+		<option value="AP">Amapá</option>
+		<option value="AM">Amazonas</option>
+		<option value="BA">Bahia</option>
+		<option value="CE">Ceará</option>
+		<option value="DF">Distrito Federal</option>
+		<option value="ES">Espírito Santo</option>
+		<option value="GO">Goiás</option>
+		<option value="MA">Maranhão</option>
+		<option value="MT">Mato Grosso</option>
+		<option value="MS">Mato Grosso do Sul</option>
+		<option value="MG">Minas Gerais</option>
+		<option value="PA">Pará</option>
+		<option value="PB">Paraíba</option>
+		<option value="PR">Paraná</option>
+		<option value="PE">Pernambuco</option>
+		<option value="PI">Piauí</option>
+		<option value="RJ">Rio de Janeiro</option>
+		<option value="RN">Rio Grande do Norte</option>
+		<option value="RS">Rio Grande do Sul</option>
+		<option value="RO">Rondônia</option>
+		<option value="RR">Roraima</option>
+		<option value="SC">Santa Catarina</option>
+		<option value="SP">São Paulo</option>
+		<option value="SE">Sergipe</option>
+		<option value="TO">Tocantins</option>
+
+	</select>
+
+	</fieldset>
+
+	<br><br>
+
+	<div class="botoes">
+
+	<input  type="submit" name="enviar" value="Enviar">
+
+	<input type="reset" name="limpar" value="Limpar">
+		
+
+	</div>
+	
+	</form>
+
+	<div class="rodape">
+		
+		<h3>Desenvolvido por Giovanni Fonseca <br> Contato: giovanni.fonseca@aluno.ifsp.edu.br</h3>
+
+	</div>
+
+</body>
+</html>

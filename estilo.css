@@ -1,0 +1,41 @@
+.titulo{
+
+	width: 2000px;
+	background-color: orange;
+	height: 100px;
+	text-align: center;
+	padding-top: 20px;
+	margin-top: 30px;
+	position: relative;
+	font-family: arial;
+	font-size: 14pt;
+}
+
+.fieldset{
+
+	width: 500px;
+	margin-left: 800px;
+
+}
+
+.botoes{
+
+
+
+	margin-left: 1213px;
+}
+
+.rodape{
+
+
+	width: 2000px;
+	background-color: orange;
+	height: 50px;
+	text-align: center;
+	padding-top: 20px;
+	margin-top: 30px;
+	position: relative;
+	font-family: arial;
+	font-size: 8pt;
+
+}
